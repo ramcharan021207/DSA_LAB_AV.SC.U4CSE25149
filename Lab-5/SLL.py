@@ -13,7 +13,7 @@ def main():
         elif my_LinkedList is None:
             print("please create the linked list first (option 1)")
         elif option == "2":
-            my_LinkedList.insert_begin(int(input("Enter the data: ")))
+            my_LinkedList.insert_begin(int(input    ("Enter the data: ")))
             print("element is inserted")
         elif option == "3":
             my_LinkedList.insert_end(int(input("Enter the data: ")))
