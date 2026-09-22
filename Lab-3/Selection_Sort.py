@@ -7,9 +7,10 @@ def Selection_Sort(arr):
                 min_index = j
         arr[i],arr[min_index] = arr[min_index],arr[i]
     return arr
+print("Ramcharan AV.SC.U4CSE25149")
 arr = []
 n = int(input("Enter the number of elements:"))
-print("Enter the elemenths:")
+print("Enter the elements:")
 for i in range(n):
     arr.append(int(input()))
 print("Unsorted array:", arr)

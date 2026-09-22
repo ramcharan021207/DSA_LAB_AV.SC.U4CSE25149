@@ -10,6 +10,7 @@ def binary_search(arr,key):
         else:
             high = mid -1
     return -1
+print("Ramcharan AV.SC.U4CSE25149")
 n = int(input("Enter the number of elements in the array: "))
 print("Enter the Elements: ")
 arr = []
